@@ -1,1 +1,13 @@
-{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::aws-account-no:user\/raspberry-pi\"},\"Action\":\"execute-api:Invoke\",\"Resource\":\"arn:aws:execute-api:us-east-1:aws-account-no: 8b52km67bi \/*\/POST\/upload-image-to-s3\"}]}
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::your_account_id:user/raspberry-pi"
+            },
+            "Action": "execute-api:Invoke",
+            "Resource": "arn:aws:execute-api:us-east-1:your_account_id:8b52km67bi/*/POST/upload-image-to-s3"
+        }
+    ]
+}
