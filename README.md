@@ -9,5 +9,8 @@ post_image_to_s3_unsecured.py - Invokes call to public API securely using AWS Si
 lambda_handler.py - Lambda function invoked by the API gateway for uploading the file to S3
 api-gateway-resource-policy.json - API gateway resource policy
 
+ACCESS_KEY = '12345'
+SECREST_ACCESS_KEY = 'ABCDE'
+
  
  
